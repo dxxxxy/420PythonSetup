@@ -52,4 +52,7 @@ pip freeze > requirements.txt
 git add .
 git commit -m "chore: deps"
 git push --set-upstream origin dev
+
+# open vscode
+code .
 echo "Made by dxxxxy#0776, go ahead and have fun :)"
