@@ -20,6 +20,11 @@ git init
 # create main immediately
 git checkout -b main
 
+# create README.md
+echo \#$repo_name > README.md
+git add .
+git commit -m "chore: README"
+
 # download and add .gitignore
 curl "https://www.toptal.com/developers/gitignore/api/flask" -o .gitignore
 git add .
